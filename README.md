@@ -1,4 +1,4 @@
-Contact Book
+Contact Book:
 A simple command-line Contact Book application written in C.
 Features
 Add new contacts
