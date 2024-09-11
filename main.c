@@ -186,7 +186,7 @@ int main()
     while (1)
     {
         printf("\nContact Book\n");
-        printf("Select Option:\n1.Add Contact\n2.Search Contact\n3.Edit Contact\n4.Delete Contact\n5.List Contact\n6.Exit\n7.Duplicate Contact\n");
+        printf("Select Option:\n1.Add Contact\n2.Search Contact\n3.Edit Contact\n4.Delete Contact\n5.List Contact\n6.Exit\n");
         scanf("%d", &n);
         switch (n)
         {
@@ -207,11 +207,6 @@ int main()
             break;
         case 6:
             exit_program();
-            break;
-        case 7:
-            duplicate_contact();
-        default:
-            printf("Invalid, Please select from 1 to 6\n");
             break;
         }
     }
